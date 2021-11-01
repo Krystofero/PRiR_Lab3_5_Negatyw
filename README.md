@@ -48,7 +48,7 @@ I tworzy obraz wynikowy - negatyw:
         
 Klasa Negatyw rozszerza klasę Thread. Konstruktor przyjmuje parametry początkowego punktu przedziału pracy tego wątku, parametry końcowego punktu:
 
-public Negatyw(BufferedImage picture, int xStart, int yStart, int xStop, int yStop){
+    public Negatyw(BufferedImage picture, int xStart, int yStart, int xStop, int yStop){
         this.xStart = xStart;
         this.yStart = yStart;
         this.xStop = xStop;
